@@ -1,15 +1,13 @@
 # web-scrapper
 This Python script scrapes the top news headlines from a news website (default: BBC News) and saves them to a `headlines.txt` file.
 
----
 
 ## 📌 Features
 
-- Scrapes headlines (`<h1>`, `<h2>`, `<h3>` tags)
+- Scrapes headlines 
 - Outputs clean, numbered list of headlines
 - Easily customizable for other news websites
 
----
 
 ## 🛠 Requirements
 
@@ -19,5 +17,5 @@ This Python script scrapes the top news headlines from a news website (default: 
   - `beautifulsoup4`
 
 Install dependencies:
-```bash
+
 pip install requests beautifulsoup4
